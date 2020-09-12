@@ -96,7 +96,7 @@ const fillPDF = (overhead, squat, bench, dead) =>
     pdfDoc.end();
 }
 
-const weekOne = (overhead, squat, bench, dead) =>
+const weekOne = (overhead, bench, dead, squat) =>
 {
     definitionOne = {
         widths: ["25%", "25%", "25%", "25%"],
@@ -109,7 +109,7 @@ const weekOne = (overhead, squat, bench, dead) =>
     }
 }
 
-const weekTwo = (overhead, squat, bench, dead) =>
+const weekTwo = (overhead, bench, dead, squat) =>
 {
     definitionTwo = {
         widths: ["25%", "25%", "25%", "25%"],
@@ -122,7 +122,7 @@ const weekTwo = (overhead, squat, bench, dead) =>
     }
 }
 
-const weekThree = (overhead, squat, bench, dead) =>
+const weekThree = (overhead, bench, dead, squat) =>
 {
     definitionThree = {
         widths: ["25%", "25%", "25%", "25%"],
@@ -135,7 +135,7 @@ const weekThree = (overhead, squat, bench, dead) =>
     }
 }
 
-const weekFour = (overhead, squat, bench, dead) =>
+const weekFour = (overhead, bench, dead, squat) =>
 {
     definitionFour = {
         widths: ["25%", "25%", "25%", "25%"],
